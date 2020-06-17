@@ -1,3 +1,4 @@
-Welcome to <br>
-# www.PRINČEŽA1.hr <br>
-public repository 
+# www.princeza1.hr <br>
+public repository <hr>
+<br>
+Prinčeža 1 is a local nail studio based in Šibenik, Croatia.
