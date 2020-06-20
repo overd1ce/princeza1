@@ -305,12 +305,16 @@ h2 {
   opacity: .9;
   background-color: #ffede9;
 }
+.three-two-every img {
+  width:100%;
+}
+.three-two-every a {
+  text-decoration: none;
+  color: #2d3f5e;
+}
 .three-two-every:hover {
   opacity: 1;
   cursor: pointer;
-}
-.three-two-every img {
-  width:100%;
 }
 .three-two-every p {
   margin-top: 15px;
@@ -330,13 +334,13 @@ h2 {
 }
 .more-link{
   padding: 10px 20px;
-  border: 2px solid black;
+  border: 2px solid #2d3f5e;
   font-weight: 600;
   color: #2d3f5e;
 }
 .more-link:hover {
-  border: 2px solid #b04f5f;
-  color: #b04f5f;
+  border: 2px solid #e08283;
+  color: #e08283;
 }
 /* creator */
 #devolans {
