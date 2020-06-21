@@ -21,23 +21,7 @@ time, mark, audio, video {
   outline: none;
   text-decoration: none;
 }
-
-/* cyrillic */
-@font-face {
-    font-family: 'Playfair Display';
-    font-style: italic;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXtXA-W2r.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-  /* vietnamese */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: italic;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXt7A-W2r.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
   /* latin-ext */
   @font-face {
     font-family: 'Playfair Display';
@@ -53,22 +37,6 @@ time, mark, audio, video {
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXtHA-Q.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* cyrillic */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: italic;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UXtXA-W2r.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-  /* vietnamese */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: italic;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UXt7A-W2r.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
   }
   /* latin-ext */
   @font-face {
@@ -86,22 +54,6 @@ time, mark, audio, video {
     src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UXtHA-Q.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-  /* cyrillic */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDTbtPY_Q.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-  /* vietnamese */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDYbtPY_Q.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
   /* latin-ext */
   @font-face {
     font-family: 'Playfair Display';
@@ -117,22 +69,6 @@ time, mark, audio, video {
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* cyrillic */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDTbtPY_Q.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-  /* vietnamese */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDYbtPY_Q.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
   }
   /* latin-ext */
   @font-face {
@@ -150,6 +86,7 @@ time, mark, audio, video {
     src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtM.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
+
 html {
   scroll-behavior: smooth;
 }
@@ -269,6 +206,10 @@ h2 {
   padding-top: 49px;
   padding-bottom: 100px;
 }
+h3 {
+  font-size: 1.3em;
+  font-weight: 700;
+}
 /*landing page content*/
 .grid-presentation {
   margin: 0 auto;
@@ -317,7 +258,7 @@ h2 {
   cursor: pointer;
 }
 .three-two-every p {
-  margin-top: 15px;
+  margin: 15px 0;
   font-size: 1.4em;
   font-weight: 600;
   padding: 10px;
@@ -338,6 +279,17 @@ h2 {
   font-weight: 600;
   color: #2d3f5e;
 }
+#o-nama {
+  background-image: 
+    linear-gradient(
+      rgba(255, 237, 233, 0.9), 
+      rgba(255, 237, 233, 0.9)
+    ), url(img/spring-flower3.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
 .more-link:hover {
   border: 2px solid #e08283;
   color: #e08283;
@@ -348,7 +300,6 @@ h2 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-bottom: 100px;
 }
 .half-half-left,
 .half-half-right {
@@ -357,14 +308,172 @@ h2 {
   max-width: 45%;
   text-align: left;
 }
-.half-half-right {
-  padding-top: 10px;
-}
+
 .half-half-left img {
   width: 100%;
 }
 .half-half-right p {
   line-height: 1.5;
+  font-family: 'Rubik', sans-serif;
+}
+#recenzije {
+  background-image: 
+    linear-gradient(
+      rgba(255, 237, 233, 0.5), 
+      rgba(255, 237, 233, 0.5)
+    ), url(img/woman-wearing-straw-hat-standing-in-bed-of-sunflowers.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.recenzije-content {
+  width:50%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  margin-top: 40px;
+}
+.recenzije-content h2 {
+  padding-top: 9px;
+}
+#edukacija {
+  background-image: 
+    linear-gradient(
+      rgba(255, 237, 233, 0.9), 
+      rgba(255, 237, 233, 0.9)
+    ), url(img/rose-petals.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.edukation-half {
+  padding-bottom: 32px;
+}
+.kontakt-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+.kontact-info {
+  text-align: left;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  padding-left: 20px;
+}
+.k-i-address,
+.k-i-phone,
+.k-i-email,
+.k-i-social {
+  margin: 15px 0;
+}
+.k-i-p-logo {
+  font-size: 1.5em;
+}
+.k-i-p-header {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.fa-instagram,
+.fa-facebook-square {
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+.icon-link {
+  color: #2d3f5e;
+}
+.icon-link:hover {
+  color: #e08283;
+}
+#cjenik {
+  padding-bottom: 100px;
+}
+.cjenik-table {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.cjenik-table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cjenik-table-header-tab {
+  padding: 0 10px;
+}
+
+.cjenik-table-header-tab p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.ctht-inactive p {
+  color: #67809f;
+}
+.ctht-active p {
+  color: #2d3f5e;
+}
+.ctht-inactive p:hover {
+  color: #2d3f5e;
+  cursor: pointer;
+}
+.cjenik-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1.5em;
+}
+.cjenik-data p {
+  font-size: 1.2em;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
+}
+.cjenik-data-left,
+.cjenik-data-right{
+  width:50%;
+  padding: 10px;
+}
+.cjenik-data-left {
+  text-align: right;
+}
+.cjenik-data-right {
+  text-align: left;
+}
+#gel-tehnika {
+  display: flex;
+}
+#nail-art {
+  display: none;
+}
+#manikura {
+  display: none;
+}
+#pedikura {
+  display: none;
+}
+/* section img gallery */
+.img-row-four {
+  width:70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: stretch;
+  padding-bottom: 100px;
+}
+.img-row-four-every {
+  min-width: 40%;
+  max-width: 40%;
+  margin: 20px;
+}
+.img-row-four-every img {
+  width: 100%;
 }
 /* creator */
 #devolans {
@@ -391,3 +500,6 @@ h2 {
 #to-top:hover {
   background-color: #b04f5f;
 }
+
+
+
