@@ -110,3 +110,68 @@ const addRemoveClass = () => {
     };
 
 }
+//reviews
+const listQuotes = [
+    {
+        quote: "Imam vrlo zahtjevna stopala, često mi je potrebna pedikura, ali otkad idem kod Dijane, period između pedikura se produžio, a problema sa stopalima je sve manje.", 
+        author: "Ana K."
+    },
+    {
+        quote: "Budući da imam dijabetes, moram puno više voditi brigu o svojim stopalima. Otkad Dijana vodi brigu o njima, ja sam neopterećena.",
+        author: "Ivana M."
+    },
+    {
+        quote: 'Od djetinjstva sam imala probleme s uraslim noktima na palčevima.  Konačno su ih rješile "špangice" koje mi je Dijana stavila na nokte. Isti trenutak bol je nestala, a nokti su s vremenom dobili pravilan oblik i prestali urastati.',
+        author: "Karmen B."
+    }
+];
+
+let currentQuote = 0;
+let progress = setInterval(timerProgress, 15);
+let progressWidth = 0;
+const quote = document.getElementById("quote");
+const quoteAuthor = document.getElementById("author");
+const previus = document.getElementById("recenzija-left");
+const next = document.getElementById("recenzija-right");
+
+
+function timerProgress(){
+    document.getElementById("progress-bar").style.width = progressWidth + "%";
+    if(progressWidth < 100) {
+        progressWidth += 0.1;
+    } else {
+        changeQuote();
+        progressWidth = 0;
+    }
+}
+    
+function setQuote() {
+    quote.innerHTML = `"${listQuotes[currentQuote].quote}"`;
+    quoteAuthor.innerHTML = `"${listQuotes[currentQuote].author}"`;
+}
+function changeQuote() {
+    if(currentQuote < listQuotes.length - 1){
+        currentQuote++;
+    } else {
+        currentQuote = 0;
+    }
+    setQuote();
+}
+
+previus.addEventListener('click', previusQuote);
+next.addEventListener('click', nextQuote);
+
+function previusQuote() {
+    if(currentQuote > 0){
+        currentQuote--;
+    } else {
+        currentQuote = listQuotes.length -1;
+    }
+    setQuote();
+    progressWidth = 0;
+}
+function nextQuote() {
+    changeQuote();
+    progressWidth = 0;
+}
+setQuote();
