@@ -147,7 +147,7 @@ function timerProgress(){
     
 function setQuote() {
     quote.innerHTML = `"${listQuotes[currentQuote].quote}"`;
-    quoteAuthor.innerHTML = `"${listQuotes[currentQuote].author}"`;
+    quoteAuthor.innerHTML = `- ${listQuotes[currentQuote].author}`;
 }
 function changeQuote() {
     if(currentQuote < listQuotes.length - 1){
