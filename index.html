@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="authot" content="devolans">
     <meta name="description" content="Salon za njegu noktiju s tridesetogodišnjim iskustvom rada u  Šibeniku. Pružamo usluge manikure, lakiranje noktiju, geliranje noktiju, nail art, spa njega i pedikure.">
+    <meta name="keywords" content="njega noktiju, salon za nokte, lijepi nokti, nail art, salon za nokte Šibenik">
     <title>Prinčeža 1 - U našem salonu prinčeža ste vi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/princeza1icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
@@ -51,27 +54,20 @@
         <section class="section-block even" id="usluge">
             <h2>Naše usluge</h2>
             <div class="three-two">
-                <div class="three-two-every">
-                    <a href="pages/usluge.html">
-                        <img src="img/close-up-of-woman-having-manicure.jpg">
-                        <p>Manikura<br><span class="usluge-opis">Zdrav i njegovan priordan nokat</span></p>
-                    </a>
-                </div>
-                <div class="three-two-every">
-                    <a href="pages/usluge.html">
-                        <img src="img/red-and-white-manicure-with-love-print.jpg">
-                        <p>Gel tehnika<br><span class="usluge-opis">Savršeni nikti svaki dan</span></p>
-                    </a>
-                </div>
-                <div class="three-two-every">
-                    <a href="pages/usluge.html">
-                        <img src="img/manicure.jpg">
-                        <p>Pedikura<br><span class="usluge-opis">Estetska i medicinska pedikura</span></p>
-                    </a>
-                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/close-up-of-woman-having-manicure.jpg">
+                            <p>Manikura<br><span class="usluge-opis">Zdrav i njegovan priordan nokat</span></p>
+                        </div>
+                        <div class="flip-card-back">
+                            
+                        </div>
+                    </div>
+                </div>    
             </div>
             <div class="more">
-                <a class="more-link" href="pages/usluge.html">Vidi još</a>
+                <a class="more-link" href="pages/usluge.html"><span class="vidijos"></span></a>
             </div>
         </section>
         <section class="section-block odd" id="o-nama">
@@ -86,7 +82,7 @@
                 </div>
             </div>
             <div class="more">
-                <a class="more-link" href="pages/onama.html">Vidi još</a>
+                <a class="more-link" href="pages/onama.html"><span class="vidijos"></span></a>
             </div>
         </section>
         <section class="section-block even" id="nasi-radovi">
@@ -150,21 +146,17 @@
                         <p>Korekcija noktiju gel (do 4 tjedna)</p>
                         <p>Korekcija gel nakon 4 tjedna</p>
                         <p>NP boja u gelu</p>
-                        <p>BX sistem njega noktiju</p>
-                        <p>IBX tretman njege noktiju sa Dadi'Oil</p>
                         <p>Trajni lak</p>
                     </div>
                     <div class="cjenik-data-right">
-                        <p>270,00 kn (30,00 kn po noktu)</p>
-                        <p>250,00 kn (25,00 kn po noktu)</p>
-                        <p>250,00 kn (25,00 kn po noktu)</p>
+                        <p>270,00 kn</p>
+                        <p>250,00 kn</p>
+                        <p>250,00 kn</p>
                         <p>100,00 kn</p>
                         <p>170,00 kn (17,00 kn po noktu)</p>
                         <p>210,00 kn (21,00 kn po noktu)</p>
                         <p>230,00 kn (23,00 kn po noktu)</p>
                         <p>30,00 kn</p>
-                        <p>40,00 kn</p>
-                        <p>70,00 kn</p>
                         <p>150,00 kn</p>
                     </div>
                 </div>
@@ -189,11 +181,10 @@
                 <div class="cjenik-data" id="manikura">
                     <div class="cjenik-data-left">
                         <p>Klasična manikura noktiju</p>
-                        <p>Manikura i njega kože</p>
+                        <p>Manikura i njega kože ruku</p>
                         <p>Lakiranje</p>
-                        <p>Oslikavanje noktiju - lak</p>
+                        <p>Oslikavanje lakom, po noktu</p>
                         <p>Phenom sistem lakiranja</p>
-                        <p>Brazilska manikura</p>
                     </div>
                     <div class="cjenik-data-right">
                         <p>120,00 kn</p>
@@ -201,7 +192,6 @@
                         <p>30,00 kn</p>
                         <p>20,00 kn</p>
                         <p>50,00 kn</p>
-                        <p>120,00 kn</p>
                     </div>
                 </div>
                 <div class="cjenik-data" id="pedikura">
@@ -212,7 +202,7 @@
                         <p>Tretman uraslih noktiju</p>
                         <p>Modeliranje i rekonstrukcija oštećenog nokta</p>
                         <p>Modeliranje noktiju i NP boja u gelu</p>
-                        <p>Podofix korekcija rasta nokta</p>
+                        <p>Podofix korekcija rasta nokta, po noktu</p>
                         <p>Odstranjivanje kurjeg oka</p>
                         <p>Brazilska pedikura</p>
                     </div>
@@ -223,7 +213,7 @@
                         <p>30,00 kn</p>
                         <p>50,00 kn</p>
                         <p>150,00 kn</p>
-                        <p>90,00 kn po noktu</p>
+                        <p>90,00 kn</p>
                         <p>30,00 kn</p>
                         <p>120,00 kn</p>
                     </div>
@@ -243,7 +233,7 @@
                 </div>
             </div>
             <div class="more">
-                <a class="more-link" href="pages/edukacije.html">Vidi još</a>
+                <a class="more-link" href="pages/edukacije.html"><span class="vidijos"></span></a>
             </div>
         </section>
         <section class="section-block even" id="kontakt">
