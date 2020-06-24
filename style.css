@@ -131,7 +131,7 @@ main {
   content: "prinčeža"
 }
 /* sections typography */
-#landing-page h1 {
+h1 {
     font-size: 3em;
     font-weight: 700;
     margin-top: 120px;
@@ -186,52 +186,25 @@ h3 {
   justify-content: space-evenly;
   align-items: stretch;
 }
-/*flip card*/
-.flip-card {
-  background-color: transparent;
-  width: 400px;
-  height: 500px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
+.three-two-every {
+  min-width: 25%;
+  max-width: 25%;
+  margin: 0 20px;
+  opacity: .9;
   background-color: #ffede9;
-  color: #2d3f5e;
 }
-
-.flip-card-back {
-  background-color: #ffede9;
-  color: #2d3f5e;
-  transform: rotateY(180deg);
-}
-
-.flip-card-front img {
+.three-two-every img {
   width:100%;
 }
-
-.flip-card-front p {
+.three-two-every a {
+  text-decoration: none;
+  color: #2d3f5e;
+}
+.three-two-every:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.three-two-every p {
   margin: 15px 0;
   font-size: 1.4em;
   font-weight: 600;
@@ -290,7 +263,7 @@ h3 {
   line-height: 1.5;
   font-family: 'Rubik', sans-serif;
 }
-
+/*section edukacija*/
 #edukacija {
   background-image: 
     linear-gradient(
@@ -507,12 +480,27 @@ h3 {
 footer {
   text-align: center;
   font-family: 'Rubik', sans-serif;
+  background-color: #b04f5f;
 }
 .footer-row1 {
-  background-color: #e08283;
+  color: #FFFFFF;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
 }
-.copyright::after {
-  content: " Prinčeža";
+.footer-col {
+  margin: 0px 20px;
+  width: 30%;
+}
+
+
+.footer-header {
+  padding: 10px 0;  
+  font-size: 1.5em;
 }
 /* creator */
 #devolans {
@@ -538,10 +526,19 @@ footer {
 #to-top:hover {
   background-color: #b04f5f;
 }
+/* some ::after */
+.logo-name::after {
+  content: "Prinčeža 1";
+}
+.adresa::after {
+  content: "Vladimira Nazora 9";
+}
+v
 /*----------------------------*/
 /*        USLUGE PAGE         */
 /*----------------------------*/
 #usluge-page {
+  position: static;
   min-height: 100vh;
   background-image: 
   linear-gradient(
@@ -550,7 +547,7 @@ footer {
   ), url(img/arrangement-beautiful-beauty-blooming-306066.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   padding: 100px 0;
 }
  
@@ -563,13 +560,12 @@ footer {
   text-align: center;
 }
 .white-wrapper h1 {
-  font-size: 2em;
-  font-weight: 700;
+  margin: 0px;
   padding: 100px 0;
 }
 .ww-inline {
   text-align: left;
-  padding: 0px 10px 100px 10px;
+  padding: 0px 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -578,16 +574,21 @@ footer {
 .ww-inline-left,
 .ww-inline-right {
   min-width: 50%;
-  opacity: 1;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.ww-inline-right {
-  padding-left: 20px;
+hr {
+  width: 30%;
+  border: 1px solid #e08283;
+  margin: 50px auto;
 }
+.last {
+  padding-bottom: 50px;
+}
+
 .ww-inline-right img,
 .ww-inline-left img{
   width: 100%;
