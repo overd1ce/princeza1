@@ -37,11 +37,12 @@ body {
 /* header */
 header {
     position: fixed;
-    background-color: #e08283;
+    background-color: #ffede9;
     width:100%;
     top: 0;
     left: 0;
     z-index: 2;
+    border-bottom: 1px solid #fcd7cf;
 }
 #header-lower-wrapper{
     margin: 0 auto;
@@ -62,7 +63,7 @@ header {
     font-weight: 100;
 }
 #logo-p a {
-    color: #FFFFFF;
+  color: #2d3f5e;
     text-decoration: none;
 }
 
@@ -74,17 +75,17 @@ nav li {
     float: left;
     padding: 0px 10px;
 }
- nav li a {
+nav li a {
     display: block;
     text-align: center;
     text-decoration: none;
     padding: 14px;
-    color: #FFFFFF;
+    color: #2d3f5e;
     font-weight: 600;
- }
+}
 
- nav li:hover {
-     background-color: #b04f5f;
+nav li:hover {
+     background-color: #fcd7cf;
 }
 
 /* main content*/ 
@@ -425,7 +426,7 @@ h3 {
 }
 #recenzija-review{
   padding: 0px 20px;
-  min-height: 200px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -480,31 +481,54 @@ h3 {
 footer {
   text-align: center;
   font-family: 'Rubik', sans-serif;
-  background-color: #b04f5f;
+  background-color: #ffede9;
+  font-size: 0.8em;
+  border-top: 1px solid #e08283;
 }
 .footer-row1 {
-  color: #FFFFFF;
+  color: #2d3f5e;
   text-align: left;
   width: 70%;
   margin: 0 auto;
   display:flex;
   flex-direction: row;
   justify-content: center;
-  align-items: stretch;
 }
 .footer-col {
-  margin: 0px 20px;
-  width: 30%;
+  padding: 30px;
 }
-
-
 .footer-header {
   padding: 10px 0;  
   font-size: 1.5em;
+  border-bottom: 1px solid #b04f5f;
 }
+.footer-first {
+  padding-top: 10px;
+}
+.web-nav-links {
+  display:flex;
+  flex-direction: column;
+}
+.web-nav-links a,
+.web-nav-links a:active,
+.web-nav-links a:visited {
+  
+  color: #2d3f5e;
+}
+.web-nav-links a:hover{
+  color: #b04f5f;
+}
+.footer-fafa {
+  color: #2d3f5e;
+}
+.footer-fafa:hover {
+  color: #b04f5f;
+}
+
 /* creator */
 #devolans {
     background-color: #2c3e50;
+    margin-top: 5px;
 }
 #devolans a {
     color: #FFFFFF;
@@ -516,7 +540,7 @@ footer {
 /* to top button */
 #to-top {
   position: fixed;
-  right: 0px;
+  right: 1px;
   bottom: 100px;
   background-color: #e08283;
   padding: 10px;
@@ -533,7 +557,6 @@ footer {
 .adresa::after {
   content: "Vladimira Nazora 9";
 }
-v
 /*----------------------------*/
 /*        USLUGE PAGE         */
 /*----------------------------*/
@@ -542,15 +565,14 @@ v
   min-height: 100vh;
   background-image: 
   linear-gradient(
-    rgba(255, 237, 233, 0.7), 
-    rgba(255, 237, 233, 0.7)
+    rgba(255, 237, 233, 0.4), 
+    rgba(255, 237, 233, 0.4)
   ), url(img/arrangement-beautiful-beauty-blooming-306066.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size:cover;
   padding: 100px 0;
 }
- 
 .white-wrapper {
   width: 70%;
   margin: 0 auto;
@@ -608,4 +630,20 @@ hr {
 }
 .ww-text {
   font-family: 'Rubik', sans-serif;
+}
+/*----------------------------*/
+/*        O NAMA PAGE         */
+/*----------------------------*/
+#onama-page {
+  position: static;
+  min-height: 100vh;
+  background-image: 
+  linear-gradient(
+    rgba(255, 237, 233, 0.4), 
+    rgba(255, 237, 233, 0.4)
+  ), url(img/pink-and-white-flowers.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 100px 0;
 }
