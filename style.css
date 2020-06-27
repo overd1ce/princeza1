@@ -580,6 +580,7 @@ footer {
   min-height: 200px;
   color: #2d3f5e;
   text-align: center;
+  padding: 0px 100px;
 }
 .white-wrapper h1 {
   margin: 0px;
@@ -587,7 +588,6 @@ footer {
 }
 .ww-inline {
   text-align: left;
-  padding: 0px 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -608,7 +608,7 @@ hr {
   margin: 50px auto;
 }
 .last {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .ww-inline-right img,
@@ -647,3 +647,21 @@ hr {
   background-size:cover;
   padding: 100px 0;
 }
+.onama-text {
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  padding-bottom: 20px;
+}
+.onama-text-last {
+  font-family: "Playfair Display", serif;
+  text-align: right;
+  padding: 50px 50px 100px 0px;
+}
+#onama-page img {
+  padding: 3px 15px 4px 0px;
+  width: 35%;
+  float: left;
+}
+/*----------------------------*/
+/*       EDUKACIJA PAGE       */
+/*----------------------------*/
