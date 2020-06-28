@@ -111,7 +111,7 @@ main {
 }
 /* 1st section(landingpage) */
 #landing-page {
-    height: 100vh;
+    min-height: 100vh;
     color: #2d3f5e;
     text-align: center;
     background-image: 
