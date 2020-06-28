@@ -704,6 +704,15 @@ hr {
     width:70%;
   }
 }
+@media (max-width:1100px){
+  #header-lower-wrapper {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .grid-presentation {
+    width:100%;
+  }
+}
 /* header nav to menu */
 .show-hide-menu {
   border: none;
@@ -715,10 +724,13 @@ hr {
 .fa-times {
   color:#2d3f5e;
 }
+.fa-times {
+  font-size: 1.3em;
+}
 #close-menu {
   display: none;
 }
-@media (max-width:1300px){
+@media (min-width:360px) and (max-width:1000px){
   #nav-menu {
     display: flex;
   }
