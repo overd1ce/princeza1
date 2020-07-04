@@ -733,6 +733,16 @@ hr {
   .kontakt-content {
     width:80%;
   }
+  .white-wrapper {
+    width: 80%;
+    padding: 0px 50px;
+  }
+}
+@media (max-width:1550px){
+  .white-wrapper {
+    width: 90%;
+    padding: 0px 40px;
+  }
 }
 @media (max-width:1400px){
   #header-lower-wrapper {
@@ -773,6 +783,11 @@ hr {
   }
   .kontact-info {
     width: 40%;
+  }
+}
+@media (max-width:1280px){
+  .ww-text {
+    font-size: .9em;
   }
 }
 @media (max-width:1100px){
@@ -834,7 +849,19 @@ hr {
       rgba(255, 237, 233, 0.4)
     ), url(img/pink-manicure4.jpg);
     background-position: center top;
-}
+  }
+  .ww-inline {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+  }
+  
+  .ww-inline-img-up {
+    padding-bottom: 50px;
+  }
+  .ww-inline-img-down {
+    padding-top: 50px;
+  }
 }
 
 /* header nav to menu */
@@ -879,6 +906,12 @@ hr {
   .cjenik-data-right {
     width:40%;
   }
+  .ww-inline {
+    width: 80%;
+  }
+  #onama-page img {
+    width: 50%;
+  }
 }
 @media (max-width:880px){
   .email {
@@ -889,6 +922,10 @@ hr {
   }
   .cjenik-data-right {
     width: 30%;
+  }
+  .ww-inline {
+    width: 90%;
+    padding: 0;
   }
 }
 @media (max-width:760px){
@@ -934,7 +971,24 @@ hr {
   .cjenik-table {
     width: 100%;
   }
-
+  .white-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0 40px;
+  }
+  #usluge-page,
+  #onama-page,
+  #edu-page {
+    padding: 0;
+  }
+  #onama-page img {
+    width: 50%;
+  }
+  .ww-inline-left,
+  .ww-inline-right {
+    padding: 0;
+    margin: 0;
+  }
 }
 @media (max-width:550px){
   .footer-row1 {
@@ -949,6 +1003,13 @@ hr {
   .three-two-every {
     min-width: 80%;
     max-width: 80%;
+  }
+  #onama-page img {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
   }
 }
 @media (max-width:450px){
