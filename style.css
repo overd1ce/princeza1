@@ -747,6 +747,10 @@ hr {
   .three-two {
     width: 90%;
   }
+  .three-two-every {
+    min-width: 28%;
+    max-width: 28%;
+  }
   .half-half {
     width: 90%;
   }
@@ -806,7 +810,25 @@ hr {
   .cjenik-data p {
     font-size: 1.1em;
   }
+  .half-half {
+    flex-direction: column;
+    width: 70%;
+  }
+  .half-half-left,
+  .half-half-right {
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  h3,
+  .half-half-right {
+    padding-top: 50px;
+  }
+  .three-two {
+    width: 100%;
+  }
 }
+
 /* header nav to menu */
 .show-hide-menu {
   border: none;
@@ -817,7 +839,9 @@ hr {
 .fa-bars,
 .fa-times {
   color:#2d3f5e;
+  padding-top: 5px;
 }
+
 .fa-times {
   font-size: 1.3em;
 }
@@ -837,9 +861,7 @@ hr {
   .email {
     font-size: .9em;
   }
-  #landing-page {
-    background-position: top left;
-  }
+
   .footer-row1 {
     width: 100%;
   }
@@ -861,7 +883,7 @@ hr {
     width: 30%;
   }
 }
-@media (max-width:740px){
+@media (max-width:760px){
   .img-row-four-every {
     min-width: 100%;
     max-width: 100%;
@@ -874,7 +896,8 @@ hr {
   }
   .grid-presentor {
     width: 80%;
-  }.email {
+  }
+  .email {
     font-size: 1em;
   }
   .kontact-info {
@@ -882,6 +905,15 @@ hr {
   }
   .cjenik-data p {
     font-size: 1em;
+  }
+  .three-two {
+    flex-direction: column;
+    align-items: center;
+  }
+  .three-two-every {
+    min-width: 60%;
+    max-width: 60%;
+    margin: 20px 0px;
   }
 }
 @media (max-width:650px){
@@ -902,6 +934,10 @@ hr {
   }
   .cjenik-row-p {
     display: block;
+  }
+  .three-two-every {
+    min-width: 80%;
+    max-width: 80%;
   }
 }
 @media (max-width:450px){

@@ -114,10 +114,6 @@ const listQuotes = [
         author: "Karmen B."
     },
     {
-        quote: 'Do svoje tridesete godine "grickala" sam nokte i skrivala ih od pogleda okoline, a onda sam upoznala  dvije "čarobnice" - Dijanu i Marijanu. Njihov salon je moja mjesečna oaza odmora za dušu i to već dvadeset godina. U njemu mogu provesti i četiri sata, a da to ni ne osjetim. Iz salona izlazim upravo kao što mu i naziv kaže kao "prinčeža". Svaki mjesec moji nokti su druge boje i s drugim motivom. Gdje god se pojavim moji nokti izazivaju pažnju i divljenje. Jedne godine vodila sam učenike na maturalnu ekskurziju u Grčku. Pri izlasku iz trajekta u Anconi granični policajac me zaustavio, uzeo moju ruku i "zaledio" pogled. Naravno da sam pomislila "aj ča ode ja u zatvor", međutim on je odjednom počeo dozivati svog kolegu i oduševljeno mu pokazivati moje nokte. Sve pohvale mojim vrijednim, pedantnim i nadasve kreativnim curkicama.',
-        author: 'Ana B.'
-    },
-    {
         quote: 'Pošto sam imala lako lomljive nokte obratila sam se Dijani na manikuru. Vec 2 desetljeća uživam, u njegovanim noktima zahvaljujući Dijaninom radu. Zahvalna!',
         author: 'Elizabeta Rupić'
     },
