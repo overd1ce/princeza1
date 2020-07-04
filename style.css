@@ -72,6 +72,7 @@ header {
     display: flex;
     flex-direction: row;
     padding: 0px 10px;
+    overflow: hidden;
 }
 
 nav li a {
@@ -90,7 +91,6 @@ nav li:hover {
 /* main content*/ 
 main {
     display: static;
-    margin-top: 51px;
 }
 
 /* sections */
@@ -122,6 +122,9 @@ main {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 /*hide mail*/
 .email::after {
@@ -134,7 +137,6 @@ main {
 h1 {
     font-size: 3em;
     font-weight: 700;
-    margin-top: 120px;
 }
 #landing-page p {
     font-size: 1.5em;
@@ -160,7 +162,6 @@ h3 {
 /*landing page content*/
 .grid-presentation {
   margin: 0 auto;
-  margin-top: 20vh;
   width:70%;
   display:flex;
   flex-direction: row;
@@ -170,8 +171,11 @@ h3 {
   width: 30%;
   margin: 20px;
   background-color: #FFFFFF;
-  padding: 50px;
   opacity: 0.7;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .grid-presentor:hover {
   opacity: 1;
@@ -255,7 +259,11 @@ h3 {
   max-width: 45%;
   text-align: left;
 }
-
+.half-half-left {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
 .half-half-left img {
   width: 100%;
 }
@@ -277,12 +285,19 @@ h3 {
 .edukation-half {
   padding-bottom: 0px;
 }
+/*konatkt*/
 .kontakt-content {
   width: 70%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   padding-bottom: 100px;
+  justify-content: center;
+}
+.map-frame{
+  width:800px;
+  height:400px;
+  border: 0;
 }
 .kontact-info {
   text-align: left;
@@ -698,10 +713,59 @@ hr {
     width: 90%;
   }
   .grid-presentation {
+    width:80%;
+  }
+  .recenzije-content {
+    width:80%;
+  }
+  .three-two {
+    width: 80%;
+  }
+  .half-half {
+    width: 80%;
+  }
+  .img-row-four {
+    width:80%;
+  }
+  .kontakt-content {
+    width:80%;
+  }
+}
+@media (max-width:1400px){
+  #header-lower-wrapper {
+    width: 90%;
+  }
+  .grid-presentation {
     width:90%;
   }
   .recenzije-content {
-    width:70%;
+    width:90%;
+  }
+  .three-two {
+    width: 90%;
+  }
+  .half-half {
+    width: 90%;
+  }
+  .img-row-four {
+    width: 90%;
+  }
+  .cjenik-table {
+    width: 90%;
+  }
+  .kontakt-content {
+    width:90%;
+  }
+  .map {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .map-frame {
+    width: 600px;
+  }
+  .kontact-info {
+    width: 40%;
   }
 }
 @media (max-width:1100px){
@@ -711,6 +775,17 @@ hr {
   }
   .grid-presentation {
     width:100%;
+  }
+  .kontakt-content {
+    flex-direction: column;
+  }
+  .map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .map-frame {
+    width: 100%;
   }
 }
 /* header nav to menu */
@@ -730,11 +805,30 @@ hr {
 #close-menu {
   display: none;
 }
-@media (min-width:360px) and (max-width:1000px){
+@media (max-width:1000px){
   #nav-menu {
     display: flex;
   }
   #nav-menu-link {
     display: none;
   }
+  nav li a {
+    padding: 3px 30px 3px 30px;
+  }
+}
+@media (max-width:740px){
+  .img-row-four-every {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+}
+@media (max-width:360px){
+  #nav-menu {
+    display: flex;
+  }
+  #nav-menu-link {
+    display: none;
+  }
+  
 }
