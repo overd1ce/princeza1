@@ -889,14 +889,9 @@ hr {
     flex-direction: column;
   }
   .cjenik-table {
-    width: 99%;
+    width: 100%;
   }
-  .cjenik-data-left {
-    width: 74%;
-  }
-  .cjenik-data-right {
-    width: 26%;
-  }
+
 }
 @media (max-width:550px){
   .footer-row1 {
