@@ -827,6 +827,14 @@ hr {
   .three-two {
     width: 100%;
   }
+  #landing-page {
+    background-image: 
+    linear-gradient(
+      rgba(255, 237, 233, 0.4), 
+      rgba(255, 237, 233, 0.4)
+    ), url(img/pink-manicure4.jpg);
+    background-position: center top;
+}
 }
 
 /* header nav to menu */
@@ -914,6 +922,9 @@ hr {
     min-width: 60%;
     max-width: 60%;
     margin: 20px 0px;
+  }
+  h1 {
+    padding-top: 100px;
   }
 }
 @media (max-width:650px){
