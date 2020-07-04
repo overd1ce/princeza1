@@ -387,6 +387,9 @@ h3 {
 .cjenik-data-right {
   text-align: left;
 }
+.cjenik-row-p { /*add empty row to pricelist*/
+  display: none;
+}
 #gel-tehnika {
   display: flex;
 }
@@ -797,6 +800,12 @@ hr {
   .k-i {
     text-align: center;
   }
+  .cjenik-table-header-tab p {
+    font-size: 1.3em;
+  }
+  .cjenik-data p {
+    font-size: 1.1em;
+  }
 }
 /* header nav to menu */
 .show-hide-menu {
@@ -834,10 +843,22 @@ hr {
   .footer-row1 {
     width: 100%;
   }
+  .cjenik-data-left {
+    width: 60%;
+  }
+  .cjenik-data-right {
+    width:40%;
+  }
 }
 @media (max-width:880px){
   .email {
     font-size: .8em;
+  }
+  .cjenik-data-left {
+    width: 70%;
+  }
+  .cjenik-data-right {
+    width: 30%;
   }
 }
 @media (max-width:740px){
@@ -856,12 +877,38 @@ hr {
   }.email {
     font-size: 1em;
   }
+  .kontact-info {
+    width: 90%;
+  }
+  .cjenik-data p {
+    font-size: 1em;
+  }
 }
 @media (max-width:650px){
   .footer-row1 {
     flex-direction: column;
   }
-  
+  .cjenik-table {
+    width: 99%;
+  }
+  .cjenik-data-left {
+    width: 75%;
+  }
+  .cjenik-data-right {
+    width: 25%;
+  }
+}
+@media (max-width:550px){
+  .footer-row1 {
+    flex-direction: column;
+  }
+  .cjenik-table {
+    width: 99%;
+  }
+
+  .cjenik-row-p {
+    display: block;
+  }
 }
 @media (max-width:360px){
   #nav-menu {
