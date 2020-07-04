@@ -825,6 +825,20 @@ hr {
   nav li a {
     padding: 3px 30px 3px 30px;
   }
+  .email {
+    font-size: .9em;
+  }
+  #landing-page {
+    background-position: top left;
+  }
+  .footer-row1 {
+    width: 100%;
+  }
+}
+@media (max-width:880px){
+  .email {
+    font-size: .8em;
+  }
 }
 @media (max-width:740px){
   .img-row-four-every {
@@ -839,7 +853,15 @@ hr {
   }
   .grid-presentor {
     width: 80%;
+  }.email {
+    font-size: 1em;
   }
+}
+@media (max-width:650px){
+  .footer-row1 {
+    flex-direction: column;
+  }
+  
 }
 @media (max-width:360px){
   #nav-menu {
