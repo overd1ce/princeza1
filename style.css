@@ -898,11 +898,15 @@ hr {
     flex-direction: column;
   }
   .cjenik-table {
-    width: 99%;
+    width: 100%;
   }
-
   .cjenik-row-p {
     display: block;
+  }
+}
+@media (max-width:450px){
+  .cjenik-data p {
+    font-size: .9em;
   }
 }
 @media (max-width:360px){
