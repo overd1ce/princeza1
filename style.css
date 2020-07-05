@@ -863,6 +863,9 @@ hr {
   .ww-inline-img-down {
     padding-top: 20px;
   }
+  .ww-text-first {
+    padding-top: 10px;
+  }
 }
 
 /* header nav to menu */
@@ -965,6 +968,7 @@ hr {
   h1 {
     padding-top: 100px;
   }
+  
 }
 @media (max-width:650px){
   .footer-row1 {
