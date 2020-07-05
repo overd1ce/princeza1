@@ -632,6 +632,7 @@ hr {
 .ww-inline-right img,
 .ww-inline-left img{
   width: 100%;
+  height: auto;
 }
 .ww-inline-h2,
 .ww-inline-tag {
@@ -827,7 +828,7 @@ hr {
   }
   .half-half {
     flex-direction: column;
-    width: 70%;
+    width: 80%;
   }
   .half-half-left,
   .half-half-right {
@@ -835,7 +836,7 @@ hr {
     max-width: 100%;
     margin: 0;
   }
-  h3,
+  
   .half-half-right {
     padding-top: 50px;
   }
@@ -911,6 +912,7 @@ hr {
   }
   #onama-page img {
     width: 50%;
+    height: auto;
   }
 }
 @media (max-width:880px){
@@ -983,6 +985,7 @@ hr {
   }
   #onama-page img {
     width: 50%;
+    height: auto;
   }
   .ww-inline-left,
   .ww-inline-right {
