@@ -259,6 +259,9 @@ h3 {
   text-align: left;
 }
 .half-half-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .half-half-left img {
   width: 100%;
