@@ -264,6 +264,9 @@ h3 {
 }
 .half-half-left img {
   width: 100%;
+  display:block;
+  width: auto;
+  height: auto;
 }
 .half-half-right p {
   line-height: 1.5;
