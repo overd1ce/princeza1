@@ -259,16 +259,9 @@ h3 {
   text-align: left;
 }
 .half-half-left {
-  display: flex;
-  flex-direction: row;
 }
 .half-half-left img {
   width: 100%;
-  display:block;
-  max-width: 100%;
-   max-height: 100%;
-   width: auto;
-   height: auto;
 }
 .half-half-right p {
   line-height: 1.5;
