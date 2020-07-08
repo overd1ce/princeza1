@@ -264,7 +264,6 @@ h3 {
 }
 .half-half-left img {
   width: 100%;
-  height: auto;
 }
 .half-half-right p {
   line-height: 1.5;
@@ -625,7 +624,6 @@ hr {
 .ww-inline-right img,
 .ww-inline-left img{
   width: 100%;
-  height: auto;
 }
 .ww-inline-h2,
 .ww-inline-tag {
@@ -909,7 +907,6 @@ hr {
   }
   #onama-page img {
     width: 50%;
-    height: auto;
   }
 }
 @media (max-width:880px){
@@ -983,7 +980,6 @@ hr {
   }
   #onama-page img {
     width: 50%;
-    height: auto;
   }
   .ww-inline-left,
   .ww-inline-right {
