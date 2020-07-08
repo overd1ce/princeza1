@@ -262,10 +262,10 @@ h3 {
 .half-half-left {
   display: flex;
   flex-direction: row;
-  align-content: center;
 }
 .half-half-left img {
   width: 100%;
+  height: auto;
 }
 .half-half-right p {
   line-height: 1.5;
@@ -873,7 +873,6 @@ hr {
   border: none;
   background-color: #ffede9;
   font-size: 2em;
-  display: none;
 }
 .fa-bars,
 .fa-times {
@@ -883,6 +882,9 @@ hr {
 
 .fa-times {
   font-size: 1.3em;
+}
+#nav-menu {
+  display: none;
 }
 #close-menu {
   display: none;
@@ -1034,5 +1036,23 @@ hr {
   #nav-menu-link {
     display: none;
   }
-  
+  #logo-p {
+    font-size: 1.4em;
+    line-height: 1.7;
+  }
+  .fa-bars,
+  .fa-times {
+    font-size: 1em;
+  }
+  #recenzija-left,
+  #recenzija-right {
+    padding: 0px 2px;
+  }
+  #recenzija-review {
+    padding: 0px 5px;
+  }
+  #quote,
+  #author {
+    font-size: 0.8em;
+  }
 }

@@ -14,7 +14,6 @@ const menu = document.getElementById("nav-menu-link");
 const menuClose = document.getElementById("close-menu");
 const navList = document.getElementById("nav-menu-link-every");
 
-
 const showMenu = () => {
     menu.style.display = "block";
     menuClose.style.display = "flex";
@@ -22,13 +21,14 @@ const showMenu = () => {
     navList.style.flexDirection = "column";
 }
 
-
 button.addEventListener('click', showMenu);
 
 document.querySelectorAll('.close-menu-class').forEach(item => {
     item.addEventListener('click', event => {
-        menu.style.display = "none";
-        menuClose.style.display = "none";
-        button.style.display = "block";
+        if(button.style.display === 'flex' || menuClose.style.display === 'flex'){
+            menu.style.display = "none";
+            menuClose.style.display = "none";
+            button.style.display = "block";
+        }
     })
   })

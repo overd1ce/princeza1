@@ -126,6 +126,10 @@ const listQuotes = [
         author: 'Jasminka B.'
     },
     {
+        quote: 'Do svoje tridesete godine "grickala" sam nokte i skrivala ih od pogleda okoline, a onda sam upoznala  dvije "čarobnice" - Dijanu i Marijanu. Njihov salon je moja mjesečna oaza odmora za dušu i to već dvadeset godina. U njemu mogu provesti i četiri sata, a da to ni ne osjetim. Iz salona izlazim upravo kao što mu i naziv kaže kao "prinčeza". Svaki mjesec moji nokti su druge boje i s drugim motivom. Gdje god se pojavim moji nokti izazivaju pažnju i divljenje. Sve pohvale mojim vrijednim, pedantnim i nadasve kreativnim curkicama.',
+        author: 'Ana B.'
+    },
+    {
         quote: 'Dugi niz godina sam vas klijent i jako sam zadovoljna odnosom i ljubaznoscu prema meni.sve preporuke buducim klijentima i garancija kvalite i odanosti.',
         author: 'M. L.'
     },
