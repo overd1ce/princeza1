@@ -590,12 +590,12 @@ footer {
   background-color: #fff;
   min-height: 200px;
   color: #2d3f5e;
-  text-align: center;
   padding: 0px 100px;
 }
 .white-wrapper h1 {
   margin: 0px;
   padding: 100px 0;
+  text-align: center;
 }
 .ww-inline {
   text-align: left;
@@ -641,6 +641,9 @@ hr {
 }
 .ww-text {
   font-family: 'Rubik', sans-serif;
+}
+.ww-text-out{
+  padding: 0 10px;
 }
 /*----------------------------*/
 /*        O NAMA PAGE         */
@@ -847,7 +850,11 @@ hr {
     margin: 0 auto;
     width: 70%;
   }
-  
+  .ww-text-out{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
   .ww-inline-img-up {
     padding-bottom: 20px;
   }
@@ -909,6 +916,9 @@ hr {
   #onama-page img {
     width: 50%;
   }
+  .ww-text-out{
+    width: 80%;
+  }
 }
 @media (max-width:880px){
   .email {
@@ -923,6 +933,9 @@ hr {
   .ww-inline {
     width: 90%;
     padding: 0;
+  }
+  .ww-text-out{
+    width: 90%;
   }
 }
 @media (max-width:760px){
@@ -992,6 +1005,10 @@ hr {
   }
   .onama-text-last{
     padding: 50px 20px 50px 0px;
+  }
+  .ww-text-out{
+    width: 90%;
+    padding: 0;
   }
 }
 @media (max-width:550px){
