@@ -122,23 +122,23 @@ const listQuotes = [
         author: 'Milena Tanfara'
     },
     {
-        quote: 'Moji nokti su krhki i lomljivi i zbog toga sam često skrivala ruke da ih nitko ne vidi,onda je brigu o njima preuzela Dijana i riješila sve moje problema i vratila mi samopouzdanje,hvala ti od srca.',
+        quote: 'Moji nokti su krhki i lomljivi i zbog toga sam često skrivala ruke da ih nitko ne vidi,onda je brigu o njima preuzela Dijana i riješila sve moje problema i vratila mi samopouzdanje, hvala ti od srca.',
         author: 'Jasminka B.'
     },
     {
-        quote: 'Do svoje tridesete godine "grickala" sam nokte i skrivala ih od pogleda okoline, a onda sam upoznala  dvije "čarobnice" - Dijanu i Marijanu. Njihov salon je moja mjesečna oaza odmora za dušu i to već dvadeset godina. U njemu mogu provesti i četiri sata, a da to ni ne osjetim. Iz salona izlazim upravo kao što mu i naziv kaže kao "prinčeza". Svaki mjesec moji nokti su druge boje i s drugim motivom. Gdje god se pojavim moji nokti izazivaju pažnju i divljenje. Sve pohvale mojim vrijednim, pedantnim i nadasve kreativnim curkicama.',
+        quote: 'Do svoje tridesete godine "grickala" sam nokte i skrivala ih od pogleda okoline, a onda sam upoznala  dvije "čarobnice" - Dijanu i Marijanu. Njihov salon je moja mjesečna oaza odmora za dušu i to već dvadeset godina. U njemu mogu provesti i četiri sata, a da to ni ne osjetim. Iz salona izlazim upravo kao što mu i naziv kaže kao "prinčeža". Svaki mjesec moji nokti su druge boje i s drugim motivom. Gdje god se pojavim moji nokti izazivaju pažnju i divljenje. Sve pohvale mojim vrijednim, pedantnim i nadasve kreativnim curkicama.',
         author: 'Ana B.'
     },
     {
-        quote: 'Dugi niz godina sam vas klijent i jako sam zadovoljna odnosom i ljubaznoscu prema meni.sve preporuke buducim klijentima i garancija kvalite i odanosti.',
+        quote: 'Dugi niz godina sam vaš klijent i jako sam zadovoljna odnosom i ljubaznošću prema meni. Sve preporuke budućim klijentima i garancija kvalite i odanosti.',
         author: 'M. L.'
     },
     {
-        quote: 'Marijana je rjesila u jedan sat moj dugogodišnji problem grickanja noktiju, a Dijana je sredila samo tako  moje trkačke nokte na nogama... Dijana & Marijana najbolje u gradu &hearts;<br>Nema dalje &hearts;',
+        quote: 'Marijana je rješila u jedan sat moj dugogodišnji problem grickanja noktiju, a Dijana je sredila samo tako  moje trkačke nokte na nogama... Dijana & Marijana najbolje u gradu &hearts;<br>Nema dalje &hearts;',
         author: 'Diana Č.'
     },
     {
-        quote: 'Ovakve probleme sa palcima na nogama kao sta ja imam nikad nisam vidila kod nikog,toliko boli i muke moze rijesiti samo Dijana a Marijana vec godinama brzo,kvalitetno i sa osmijehom brine o mojim noktima na rukama....uvijek u modernim i veselim bojama...samo rijeci hvale za sve napravljeno',
+        quote: 'Ovakve probleme sa palcima na nogama kao šta ja imam nikad nisam vidila kod nikog, toliko boli i muke može riješiti samo Dijana, a Marijana već godinama brzo, kvalitetno i sa osmijehom brine o mojim noktima na rukama... Uvijek u modernim i veselim bojama...samo rijeći hvale za sve napravljeno',
         author: 'Josipa D.'
     }
 ];
