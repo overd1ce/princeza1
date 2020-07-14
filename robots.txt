@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 User-agent: *
 Disallow: /scripts/
-Sitemap: http://www.prinčeža1.hr/Sitemap.xml
+Sitemap: http://www.prinčeža1.hr/sitemap.xml

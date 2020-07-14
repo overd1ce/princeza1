@@ -534,7 +534,9 @@ footer {
 .footer-fafa:hover {
   color: #b04f5f;
 }
-
+.f-text {
+  line-height: 2;
+}
 /* creator */
 #devolans {
     background-color: #2c3e50;
